@@ -99,7 +99,6 @@ Version:	1.1
                 $(".isotop-active").isotope({
                     filter: '*',
                 });
-
 					$('.portfolio-nav ul li').on('click', function() {
                     $(".portfolio-nav ul li").removeClass("active");
                     $(this).addClass("active");
