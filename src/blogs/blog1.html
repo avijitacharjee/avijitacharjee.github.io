@@ -50,7 +50,28 @@
 		
     </head>
     <body>
-	
+		<!-- Fb comments plugin -->
+		
+		<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=1205435063219912&autoLogAppEvents=1" nonce="h1tNwQVX"></script>
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/el_GR/all.js#xfbml=1&appId=1205435063219912";
+	fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- 
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+	fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script> -->
+  <div class="fb-comments" data-href="https://avijitacharjee.github.io/src/blogs/blog1.html" data-width="500" data-numposts="5"></div>
 		<!-- Preloader -->
 		<div class="loader">
 			<div class="loader-inner">
@@ -204,16 +225,27 @@
 										<!--/ End Next Prev -->
 										<div class="blog-share">
 											<ul>
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<!-- <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Favijitacharjee.github.io%2Fsrc%2Fblogs%2Fblog1.html&layout=button_count&size=small&appId=316180286470766&width=77&height=20" width="77" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+												<li><a href=""><i class="fa fa-facebook"></i></a></li>
 												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 												<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 											</ul>
+											
 										</div>
 									</div>
 								</div>						
 								<!--/ End Single Blog -->
 							</div>	
+
+							
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<div class="blog-comments">
+									<div class="fb-comments" data-href="https://avijitacharjee.github.io" data-width="" data-numposts="5"></div>
+								</div>
+							</div>
+
+
 <!-- 							
 							<div class="col-md-12 col-sm-12 col-xs-12">
 								<div class="blog-comments">
@@ -364,7 +396,9 @@
 					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="newslatter">
 							<h2><span>Signup</span>Newslatter</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio tenetur, dolores aperiam, quasi perferendis nemo mollitia labore molestias modi consequatur expedita ad voluptates dolor ex. Impedit quo temporibus, molestiae fugit?</p>
+							<p>
+								Sign up in the newslatter to get informed about my new offers and new blog post.
+							</p>
 						</div>
 						<form class="news-form">
 							<input type="email" placeholder="type your email">
@@ -461,3 +495,6 @@
 		<script type="text/javascript" src="../../js/main.js"></script>
     </body>
 </html>
+<div class="fb-comments" data-href="https://avijitacharjee.github.io" data-width="500" data-numposts="5"></div>
+<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="5"></div>
+<div class="fb-comments" data-href="https://avijitacharjee.github.io/src/blogs/blog1.html" data-width="100%" data-numposts="5"></div>
