@@ -60,12 +60,16 @@ Version:	1.1
 }
 #header .logo a {
 	color: #fff;
+	font-family: 'Cinzel Decorative';
 	text-transform: capitalize;
 	font-size: 22px;
 	font-weight: 600;
 	position: relative;
 	padding-left: 16px;
 }
+/* 
+	The dot before name is commented
+*/
 #header .logo a::before {
 	position: absolute;
 	left: 0;
