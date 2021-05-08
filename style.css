@@ -2376,7 +2376,7 @@ Version:	1.1
 #call-action {
 	position: relative;
 	overflow: hidden;
-	background-image: url('http://via.placeholder.com/1500x800');
+	background-image: url('images/hire.webp');
 	background-size: cover;
 	background-position: center;
 	z-index: 1;
