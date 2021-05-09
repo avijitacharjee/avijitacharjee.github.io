@@ -1327,7 +1327,19 @@ Version:	1.1
 /*=======================
     End Portfolio
 =========================*/
+/*======================= 
+	Start Flute
+=========================*/
 
+#flute {
+	background: #fff;
+	overflow: hidden;
+}
+
+
+/*======================= 
+	End Flute
+=========================*/
 /*=======================
 	CountDown CSS
 =========================*/
@@ -1336,7 +1348,7 @@ Version:	1.1
 	background-size: cover;
 	background-position: center center;
 	position: relative;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	padding:70px 0 100px;
 }
