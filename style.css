@@ -1335,6 +1335,15 @@ Version:	1.1
 	background: #fff;
 	overflow: hidden;
 }
+#flute .container-fluid{
+	padding:0;
+}
+#flute .row.stylex {
+	margin: 0;
+}
+#flute .col-fix{
+	padding:0;
+}
 
 
 /*======================= 
