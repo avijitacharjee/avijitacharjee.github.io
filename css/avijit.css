@@ -11,3 +11,11 @@
 .counter_a {
   
 }
+.counter_blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counterimg {
+  display: inline;
+}
