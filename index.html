@@ -77,12 +77,7 @@
 		<script src="https://smtpjs.com/v3/smtp.js"></script>
 
 		<!-- UserInfo.js -->
-		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/userinfo/1.1.1/userinfo.min.js" integrity="sha512-9It+yynbvuEk1e6Cb+PLjojvR22le0m/rMikk6gsDb+NsVh9pdNj3tGKnecROQeQZe5lZqWOLQ0E8u29T5ygHg==" crossorigin="anonymous"></script> -->
-		<script type="text/javascript" src="js/userinfo/userinfo-js/src/userinfo.js"></script>
-
-		<script>
-			
-		</script>
+		
     </head>
     <body>
 	
@@ -942,30 +937,30 @@
 				<div class="row">
 					<!-- Contact Form -->
 					<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.4s">
-						<form class="form" method="post" action="mail/mail.php">
+						<div class="form">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" name="name" placeholder="Full Name" required="required">
+										<input type="text" name="name" id="contact_name" placeholder="Full Name" required="required">
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="email" name="email" placeholder="Your Email" required="required">
+										<input type="email" name="email" id = "contact_email" placeholder="Your Email" required="required">
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<textarea name="message" rows="6" placeholder="Type Your Message Here" ></textarea>
+										<textarea name="message" rows="6" id ="contact_message" placeholder="Type Your Message Here" ></textarea>
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group button">	
-										<button type="submit" class="button primary"><i class="fa fa-send"></i>Submit</button>
+										<button id="contact_submit" class="button primary"><i class="fa fa-send"></i>Submit</button>
 									</div>
 								</div>
 							</div>
-						</form>
+						</div>
 					</div>
 					<!--/ End Contact Form -->
 					<!-- Contact Address -->
@@ -1160,6 +1155,11 @@
 
 		<!-- By Avijit  -->
 		<script type="text/javascript" src="js/avijit/avijit.js"></script>
+
+		<!-- User info script -->
+		<script>
+			
+		</script>
 
 
 
