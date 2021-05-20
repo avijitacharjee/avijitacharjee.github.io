@@ -69,3 +69,39 @@ Snackbar
 /* =======================
 End Snackbar
 =========================*/
+
+
+/* =======================
+Start top contact urls
+=========================*/
+.top-social ul li{
+  display: inline-block;
+  /* width: 30px;
+  height: 30px;
+  padding: 0px; */
+  padding: 5px;
+  background-color: #00000000;
+}
+
+.top-social ul li:hover a{
+  background-color: #F2784B;
+  color: white;
+}
+.top-social ul li a {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+  display: block;
+  text-align: center;
+}
+.top-social {
+  margin-top: 20px;
+}
+
+/* =======================
+End Top contacts url
+=========================*/

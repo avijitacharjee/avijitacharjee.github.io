@@ -1,5 +1,5 @@
 $('#contact_submit').click(function (e) {
-    $.getJSON('http://ip-api.com/json', function (d) {
+    $.getJSON('https://ipinfo.io/json', function (d) {
         var contact_name = document.getElementById("contact_name").value;
         var contact_email = document.getElementById("contact_email").value;
         var contact_message = document.getElementById("contact_message").value;
