@@ -2694,7 +2694,7 @@ Version:	1.1
 	border: 0px solid;
 	padding: 5px 20px;
 	width: 90%;
-	text-transform: capitalize;
+	text-transform: lowercase;
 	border-radius: 50px;
 	background: #f1f1f1;
 	color: #555;

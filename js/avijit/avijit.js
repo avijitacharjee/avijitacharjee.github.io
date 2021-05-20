@@ -41,3 +41,34 @@ function showSnackbar(message,time) {
     x.className = "show";
     setTimeout(function () { x.className = x.className.replace("show", ""); }, time);
 }
+
+// Subscriber 
+$('#subscriber_button').click(function (e) {
+    var mail = document.getElementById('subscriber_email').value;
+    if (!validateEmail(mail)) {
+        showSnackbar("Invalid email", 1000);
+        return;
+    }
+    $.ajax({
+        type: 'POST',
+        url: 'https://p-admin.androitech.tk/api.php',
+        crossDomain: true,
+        data: {
+            subscribe: true,
+            email: mail
+        },
+        contentType: 'application/x-www-form-urlencoded',
+        success: function (responseData, textStatus, jqXHR) {
+            console.log(responseData);
+            showSnackbar(responseData, 1000);
+        },
+        error: function (responseData, textStatus, errorThrown) {
+            console.log(errorThrown);
+            showSnackbar(responseData, 1000);
+        }
+    });
+});
+function validateEmail(email) {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
