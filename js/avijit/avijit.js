@@ -5,7 +5,7 @@ $('#contact_submit').click(function (e) {
         var contact_message = document.getElementById("contact_message").value;
         $.ajax({
             type: 'POST',
-            url: 'http://p-admin.androitech.tk/api.php',
+            url: 'https://p-admin.androitech.tk/api.php',
             crossDomain: true,
             data: {
                 m: 100,
