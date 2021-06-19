@@ -409,10 +409,10 @@
 								Sign up in the newslatter to get informed about my new offers and new blog post.
 							</p>
 						</div>
-						<form class="news-form">
-							<input type="email" placeholder="type your email">
-							<button type="submit" class="button primary"><i class="fa fa-paper-plane"></i></button>
-						</form>	
+						<div class="news-form">
+							<input type="email" placeholder="type your email" id="subscriber_email"/>
+							<button type="button" class="button primary" id="subscriber_button"><i class="fa fa-paper-plane"></i></button>
+						</div>	
 					</div>
 					<!--/ End Single Widget -->
 				</div>
@@ -450,7 +450,9 @@
 			</div>
 		</footer>
 		<!--/ End Footer -->
-		
+		<!-- Snackbar -->
+		<div id="snackbar">Some text some message..</div>
+		<!-- End Snackbar -->
 		<!-- Jquery -->
 		<script type="text/javascript" src="../../js/jquery.min.js"></script>
 		
@@ -502,6 +504,9 @@
 		
 		<!-- Main JS -->
 		<script type="text/javascript" src="../../js/main.js"></script>
+
+		<script type="text/javascript" src="../../js/avijit/avijit.js"></script>
+
 		<div class="fb-comments" data-href="https://avijitacharjee.github.io/src/blogs/DEBUG%20ANDROID%20WITHOUT%20WIRE.html" data-width="100%" data-numposts="5"></div>
     </body>
 </html>
