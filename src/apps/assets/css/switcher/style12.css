@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==========================
+NAVIGATION BAR COLOR
+==========================*/
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #3ab3e0;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #3ab3e0;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #3ab3e0;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: transparent;
+	color: #3ab3e0;
+}
+
+ @media (max-width: 767px) {
+	 
+	 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	color: #3ab3e0;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+	color: #3ab3e0;
+	background-color: transparent;
+}
+ }
+
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	color: #3ab3e0;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+	color: #3ab3e0;
+	background-color: transparent;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #3ab3e0;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #3ab3e0;
+}
+
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	background-color: transparent;
+	color: #3ab3e0;
+}
+
+
+
+
+/*==========================
+LOGO
+==========================*/
+
+span.logo-span
+{
+	font-size:25px;
+	color: #3ab3e0;
+}
+
+
+
+/*==========================
+BUTTONS COLOR
+==========================*/
+
+.yorker-btn {
+	background-color: #111;
+	color: #ffffff;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn:hover {
+	background-color: #3ab3e0;
+	color: #ffffff;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn2 {
+	background-color: #3ab3e0;
+	color: #ffffff;
+	border: 1px solid #3ab3e0;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn2:hover {
+	background-color: transparent;
+	color: #ffffff;
+	border: 1px solid #3ab3e0;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn3 {
+	background-color: transparent;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn3:hover {
+	background-color: #e5e5e5;
+	color: #111;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn4 {
+	background-color: transparent;
+	color: #111;
+	border: 1px solid #111;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn4:hover {
+	background-color: #e5e5e5;
+	color: #111;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn5 {
+	background-color: transparent;
+	color: #111;
+	border: 1px solid #111;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn5:hover {
+	background-color: #111;
+	color: #ffffff;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn6 {
+	background-color: transparent;
+	color: #111;
+	border: 1px solid #111;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn6:hover {
+	background-color: #3ab3e0;
+	color: #ffffff;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn7 {
+	background-color: transparent;
+	color: #3ab3e0;
+	border: 1px solid #3ab3e0;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn7:hover {
+	background-color: #3ab3e0;
+	color: #ffffff;
+	border: 1px solid #3ab3e0;
+	transition: all 0.5s ease-in-out 0s;
+}
+
+
+.yorker-btn8 {
+	background-color: transparent;
+	color: #3ab3e0;
+	border: 0px solid #3ab3e0;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn8:hover {
+	background-color: #3ab3e0;
+	color: #ffffff;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+
+
+
+/*==========================
+PROGRESS BAR
+==========================*/
+
+
+.yorker-progress .progress-bar {
+background-color: #3ab3e0;
+}
+
+
+
+/*==========================
+PORTFOLIO
+==========================*/
+
+.filters li a.current {
+	color: #ffffff;
+	border:1px solid #3ab3e0;
+	background-color: #3ab3e0;
+	text-decoration: none;
+}
+
+
+
+.filters li a:hover {
+		color: #ffffff;
+	border:1px solid #3ab3e0;
+	background-color: #3ab3e0;
+	text-decoration: none;
+}
+
+.work-category a, .work-popup i {
+	color: #3ab3e0;
+}
+
+/*==========================
+PRICING
+==========================*/
+
+
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > h2 {
+		background-color: #3ab3e0;
+}
+
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > .pricing-box {
+		border-bottom: 3px solid #3ab3e0;
+}
+
+.plan-footer .btn:hover, .btn:focus {
+		background:#3ab3e0;
+}
+
+
+/*==========================
+TEAM
+==========================*/
+.team-image ul.social-icons li a:hover {
+  background: #3ab3e0;
+}
+
+
+/*==========================
+BLOG POST
+==========================*/
+.post-single .post-cat li a {
+	color: #3ab3e0;
+}
+
+.blog-box a:hover .blog-box-overlay 
+{
+	background-color: rgba(58, 179, 224, 0.58);
+}
+
+
+/*==========================
+CONTACT BUTTON
+==========================*/
+button.submit:hover, .button.submit:focus, .button.submit:active {
+	background-color: #3ab3e0;
+}
+
+
+
+.feature.style-app-1 i, .feature.style-app-2 i
+{
+	color:#ffffff;
+	background-color: #3ab3e0;
+}
+
+.platforms i
+{
+ color:#3ab3e0;
+ }
+
+/*Version-3*/
+.border-strip
+{
+    border-bottom:3px solid #3ab3e0;
+}
+
+.icon-box-holder span
+{
+	color:#3ab3e0;
+}
+
+
+
+.counters span.counter-icon-2 i
+{
+	color:#3ab3e0;
+}
+
+.border-line-2 {
+	border:2px solid #3ab3e0;
+}
+
+.plan-footer-2 .btn {
+	background-color:#3ab3e0;
+}
+
+/*Version-4*/ 
+
+h2.about-us-heading
+{
+	color:#3ab3e0;
+}
+
+span.about-span-font
+{
+	color:#3ab3e0;
+}
+
+.testimonials-name {
+    color: #3ab3e0;
+}
+
+.work-heading {
+    color: #3ab3e0;
+}
+
+.theme-bg
+{
+	background-color:#3ab3e0;
+}
+
+h2.story-heading {
+	color:#3ab3e0;
+}
+
+.feature-box h3 {
+	color:#3ab3e0;
+}
+
+li.active span.round-tabs.one{
+    color: #3ab3e0;
+     border: 2px solid #3ab3e0;
+}
+
+
+li.active span.round-tabs.two{
+    color: #3ab3e0;
+     border: 2px solid #3ab3e0;
+}
+
+
+li.active span.round-tabs.three{
+    color: #3ab3e0;
+     border: 2px solid #3ab3e0;
+}
+
+
+li.active span.round-tabs.four{
+    color: #3ab3e0;
+     border: 2px solid #3ab3e0;
+}
+
+li.active span.round-tabs.five{
+    color: #3ab3e0;
+     border: 2px solid #3ab3e0;
+}
+.or-rgt-menu h1 {
+	color:#3ab3e0;
+}
