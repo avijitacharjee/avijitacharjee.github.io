@@ -24,6 +24,13 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="../../images/circle-cropped.webp" />
+
+    <link
+      href="../../css/avijit.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
     <!-- BOOTSTRAP CSS  -->
     <link
       href="assets/css/bootstrap/css/bootstrap.min.css"
@@ -218,7 +225,7 @@
                   <img
                     class="layer-one wow fadeIn"
                     data-wow-delay="0.5s"
-                    src="assets/images/mockups/iphone-white-no-shadow.png"
+                    src="assets/images/mockups/back_layer.png"
                     width="316"
                     height="581"
                     alt="iPhone app presentation"
@@ -227,10 +234,11 @@
                   <img
                     class="layer-two wow fadeIn hidden-sm"
                     data-wow-delay="1s"
-                    src="assets/images/mockups/iphone-screen.png"
+                    src="assets/images/mockups/front_layer.png"
                     width="316"
                     height="581"
                     alt="iPhone app presentation"
+                    style="top: 10%;"
                   />
                 </div>
               </div>
@@ -308,13 +316,13 @@
 
             <div class="col-md-6">
               <!-- responsive video wrapper -->
-              <!-- <div class="video-wrap wow fadeIn" data-wow-delay="0.35s">
+              <div class="video-wrap wow fadeIn" data-wow-delay="0.35s">
                 <iframe
-                  src="http://player.vimeo.com/video/23534361?title=0&amp;byline=0&amp;portrait=0&amp;color=e61875"
+                  src="https://www.youtube.com/embed/N4I0BdJjbr0"
                   width="500"
                   height="281"
                 ></iframe>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -478,7 +486,7 @@
               <!-- Contact form -->
               <!-- Please carefully read the Documentation
                 in order to setup the PHP contact form properly -->
-              <form class="contact__form" id="form_sendemail">
+              <div class="contact__form" id="form_sendemail">
                 <div class="row">
                   <!-- Name -->
                   <div class="form-group">
@@ -529,11 +537,12 @@
                   <!-- /reCAPTCHA -->
                 </div>
                 <div class="text-center">
-                  <button type="submit" class="submit">Send message</button>
+                  <button type="submit" class="submit" id="contact_submit">Send message</button>
                   <div class="clearfix"></div>
                 </div>
-              </form>
+              </div>
             </div>
+            
             <!-- <div
               class="col-md-6 contactRight wow fadeIn"
               data-wow-delay="0.40s"
@@ -627,6 +636,9 @@
     <div id="preloader">
       <div id="status">&nbsp;</div>
     </div>
+    <!-- Snackbar -->
+		<div id="snackbar">Some text some message..</div>
+		<!-- End Snackbar -->
 
     <!-- JAVASCRIPT
       ================================================== -->
@@ -693,6 +705,9 @@
       type="text/javascript"
       src="assets/plugins/fitvids/fitvids.js"
     ></script>
+
+    <!-- Youtube Player JS -->
+		<script type="text/javascript" src="js/ytplayer.min.js"></script>
     <!-- Google Maps-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl-EDTJ5_uU3zBIX7-wNTu-qSZr1DO5Dw"></script>
     <script type="text/javascript" src="assets/js/map.js"></script>
@@ -707,5 +722,53 @@
     <script>
       new WOW().init();
     </script>
+    
+    <script>
+      $('#contact_submit').click(function (e) {
+        $.getJSON('https://ipinfo.io/json', function (d) {
+            var contact_name = document.getElementById("name").value;
+            var contact_email = document.getElementById("email").value;
+            var contact_message = document.getElementById("message").value;
+            $.ajax({
+                type: 'POST',
+                url: 'https://p-admin.androitech.tk/api.php',
+                crossDomain: true,
+                data: {
+                    m: 100,
+                    name: contact_name,
+                    email: contact_email,
+                    message: contact_message,
+                    user_info: JSON.stringify(d, null, 2)
+                },
+                contentType: "application/json",
+                contentType: "application/x-www-form-urlencoded",
+                // dataType: 'json',
+                success: function(responseData, textStatus, jqXHR) {
+                    var value = responseData.responseText;
+                    console.log(value);
+                    showSnackbar("Message sent successfully",3000);
+                },
+                error: function (responseData, textStatus, errorThrown) {
+                    console.log(errorThrown);
+                    console.log('response data');
+                    console.log(responseData);
+                }
+            });
+            // console.log(JSON.stringify(d, null, 2));
+        });
+    });
+    $('#hire_me_now').click(function(e) {
+        showSnackbar("Please send a message in contact section to continue", 4000);
+    })
+
+    function showSnackbar(message,time) {
+        var x = document.getElementById("snackbar");
+        x.innerText = message;
+        x.className = "show";
+        setTimeout(function () { x.className = x.className.replace("show", ""); }, time);
+    }
+
+    </script>
+    
   </body>
 </html>

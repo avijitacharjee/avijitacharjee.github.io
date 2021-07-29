@@ -1487,6 +1487,7 @@ ul.features-list li {
 	max-width: 100%;
 	height: auto;
 	z-index: 1;
+	top: 10%;
 }
 .phone-mockup.style-app-2 > .wrapper .layer-one {
 	position: relative;
@@ -1496,10 +1497,11 @@ ul.features-list li {
 .phone-mockup.style-app-2 > .wrapper .layer-two {
 	position: absolute;
 	top: 0;
-	right: -40%;
+	right: -50%;
 	width: auto;
 	height: 100%;
 	z-index: 1;
+	top: 10%;
 }
 .phone-mockup.style-app-1 {
 	margin-top: 20px;
