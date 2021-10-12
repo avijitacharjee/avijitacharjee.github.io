@@ -11,7 +11,7 @@
 
 		
 		<!-- Title Tag -->
-        <title>Debug Android Without Cable &minus; Avijit's blog </title>
+        <title>Userful ADB commands. &minus; Avijit's blog </title>
 		
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="../../images/circle-cropped.png">	
@@ -52,6 +52,7 @@
 		<link rel="stylesheet" href="../../css/color/color1.css">
 
 		<link rel="stylesheet" href="../../css/avijit.css">
+		<link rel="stylesheet" href="../../css/blogs.css">
 		
     </head>
     <body>
@@ -142,10 +143,10 @@
 									</div>
 									<div class="blog-info">
 										<div class="date">
-											<div class="day"><span>11</span>April</div>
+											<div class="day"><span>14</span>Oct</div>
 											<div class="year">2021</div>
 										</div>
-										<h2><a href="../../blog-single.html">Debug Android Without Wire</a></h2>
+										<h2><a href="../../blog-single.html">Useful ADB commands.. </a></h2>
 										<div class="meta">
 										<span><i class="fa fa-user"></i>By Avijit</span>
 										<span><i class="fa fa-comments"></i>0 comments </span>
@@ -153,53 +154,84 @@
 											<i class="fa fa-eye"></i>
 											<span>5k Times Viewed</span> 
 										</span>
-										<!-- <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=e045c07a9d21bcee477e568a3c6adb581c036ae1'></script> -->
 										</div>
 										<br>
 										<br>
-										<blockquote>
+										<!-- <blockquote>
 											Working hard and working smart sometimes can be two different things.
 											<br>
 											<strong style="float: right;">Dorgan </strong> 
-										</blockquote>
+										</blockquote> -->
 										<p>
 											ADB stands for Android Debug Bridge. It is a command line tool to interact with your android device from a computer.
 											Using adb commands you can a lot of things such as installing and debugging android applications, changing your
 											device screen size and so many things which are not so easy and some are not possible without the adb tool.
-											And it also provides you access to the unix shell where you can enter commands to the mobile.
+											And it also provides you access to the unix shell where you can enter commands to the mobile. As there there are command 
+											line interface in windows and terminal in linux, android also have a command line interface. We can access the shell
+											using the adb.
 											In this article we are going to discuss about some very important adb commands that will you should know.
 
-											<h6>
-												Enable adb debugging on your mobile.
-											</h6>
 											
-
+											
 										</p>
-										<figure>
+										<br>
+										<h4>
+											Enable usb debugging on your mobile to use the adb shell.
+										</h4>
+										<!-- <figure>
 											<img src="https://plugins.jetbrains.com/files/7983/screenshot_15524.png" style="margin: 0 auto;" alt="ADB wifi plugin" srcset="">
 											<figcaption style=" text-align: center">Fig.1 - Adb Wifi plugin</figcaption>
 										  </figure>
-										
-										<p>But the ultimate solution is to use some commands...</p>
+										 -->
+										 <p>
+											 To use the adb commands you need to enable the USB debugging feature of your device (The android device on which you want to 
+											 run the adb commands). The process is shown below.
+										 </p>
+										 <ul class="ul1">
+											 <li class="list1">
+												 On the android device open settings..
+											 </li>
+											 <li class="list1">
+												 Tap on <b>About phone</b> or <b> System </b>.
+											 </li>
+											 <li class="list1">
+												 Tap on Build number for seven  times.
+											 </li>
+											 <li class="list1">
+												 Then the developer option will appear and click on it. Turn it on if it shows turned off.
+											 </li>
+											 <li class="list1">
+												 Scroll down and enable the USB debugging option.
+											 </li>
+										 </ul>
+										 <br>
+										 <br>
+										 <h4>
+											 Configure ADB
+										 </h4>
+										 <p>
+											 If you are using android studio then you can download adb using the sdk manager.
+										 </p>
+										 <ul class="ul1">
+											 <li class="list1">
+												 Tap on tools-> SDK manager
+											 </li>
+											 <li class="list1">
+												 Select the <b>"Android SDK Platform tools"</b>.
+											 </li>
+											 <li class="list1">
+												 Click <b>Ok</b>
+											 </li>
+										 </ul>
+										<p>Now android studio will download the sdk platform tools.</p>
 										<p>
-											Before using this commands you need to connect both your devices ( You android device on which the application 
-											will be installed and the pc on where the editor is installed. ) on the same network.
+											Alternatively you can also download the <a href="https://developer.android.com/studio/releases/platform-tools">Android sdk platform tools package</a>
 										</p>
-										
-										<h4>The commands are : </h4>
 										<p>
-											<b>
-												ipconfig
-											</b> 
+											Now you can use the adb shell. To do that, go to platform-tools folder you have downloaded just now and open command prompt there.
+											Or you can copy the path of the folder and then open cmd from anywhere then go to that directory via <b>cd copied_directory</b> command.
 											
 										</p>
-										<p>
-											This command shows you details about your current network. You can get your ip and other important information using this command..
-										</p>
-										<figure>
-											<img src="../../images/blogs/blog0/ipconfig.JPG" alt="ipconfig" srcset="" style="margin: 0 auto;">
-											<figcaption style=" text-align: center">Fig.2 - ipconfig command</figcaption>
-										</figure>
 										<p>
 											<b>
 												adb tcpip 5555
