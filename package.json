@@ -1,0 +1,27 @@
+{
+  "name": "avijitacharjee.github.io",
+  "version": "0.0.1",
+  "description": "My personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avijitacharjee/avijitacharjee.github.io.git"
+  },
+  "keywords": [
+    "Avijit",
+    "Acharjee",
+    "portfolio",
+    "android",
+    "developer",
+    "android"
+  ],
+  "author": "Avijit Acharjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avijitacharjee/avijitacharjee.github.io/issues"
+  },
+  "homepage": "https://github.com/avijitacharjee/avijitacharjee.github.io#readme"
+}
