@@ -1,9 +1,9 @@
 import Button from './components/Buttons/Button.js';
+import Home from "./screens/Home";
 function App() {
   return (
     <div>
-      Hello world
-      <Button/>
+      <Button/><Home/>
     </div>
   );
 }
