@@ -5,9 +5,7 @@ import {AuthProvider} from "./contexts/AuthContext";
 function App() {
   return (
     <div>
-      <AuthProvider>
-
-      </AuthProvider>
+      <Button/><Home/>
     </div>
   );
 }
