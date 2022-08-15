@@ -1,11 +1,9 @@
-import Button from './components/Buttons/Button.js';
-import Home from "./screens/Home";
-import {AuthProvider} from "./contexts/AuthContext";
+import Profile from "./components/profile/Profile";
 
 function App() {
   return (
     <div>
-      <Button/><Home/>
+      <Profile/>
     </div>
   );
 }
