@@ -1,0 +1,120 @@
+.pricing-table {
+	margin-top:60px;
+}
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title {
+	display: block;
+	background-color: #1d1d1d;
+	color: #fff;
+}
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > h2 {
+	display: block;
+	margin: 0;
+	height: 74px;
+	line-height: 74px;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > .pricing-box {
+	padding: 30px;
+	height: 216px;
+}
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > .pricing-box > .price {
+	position: relative;
+	display: inline-block;
+	padding: 0 0 0 10px;
+	color: #fff;
+	font-size: 100px;
+	font-weight: 300;
+	line-height: 100px;
+}
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > .pricing-box > .price > .symbol {
+	position: absolute;
+	top: -25px;
+	left: 0;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 300;
+}
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > .pricing-box > .month {
+	position: relative;
+	display: inline-block;
+	bottom: 0px;
+	left: 0px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+}
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > .pricing-box > .price-info {
+	margin-top: 20px;
+	font-size: 13px;
+	font-style: italic;
+	color: #aaa;
+}
+.pricing-table .pricing-wrapper > .pricing-column > .item-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+}
+.pricing-table .pricing-wrapper > .pricing-column > .item-list > li {
+	display: block;
+	padding: 20px 15px;
+	font-size: 16px;
+	list-style-type: none;
+	border-right: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+}
+.pricing-table .pricing-wrapper > .pricing-column > .plan-footer {
+	background-color: #f6f6f6;
+	padding: 20px 10px;
+	border-right: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+}
+.pricing-table .pricing-wrapper.bottom-column {
+	margin-bottom: 50px;
+}
+.plan-footer .btn {
+	background-color:#1b1b1b;
+	color:#fafafa;
+	-webkit-transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+	transition:all 0.4s ease-in-out;
+	border-radius:0;
+}
+.plan-footer .btn:hover, .btn:focus {
+	color:#fafafa;
+	border-radius:0;
+	-webkit-transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+	transition:all 0.4s ease-in-out;
+}
+@media (min-width: 1023px) {
+ .pricing-table .pricing-wrapper.bottom-column {
+ margin-bottom: 0px;
+}
+}
+ @media (min-width: 767px) {
+ .pricing-table .pricing-wrapper {
+ padding: 0px;
+ box-shadow: 0 0 13px rgba(0, 0, 0, 0.2);
+}
+}
+@media (min-width: 767px) {
+ .pricing-table .pricing-wrapper > .pricing-column > .item-list > li {
+ border-right: none;
+ border-left: none;
+}
+}
+ @media (min-width: 767px) {
+ .pricing-table .pricing-wrapper > .pricing-column > .plan-footer {
+ border-right: none;
+ border-left: none;
+}
+}

@@ -1,0 +1,34 @@
+.addon-facebook {
+	background-color: #345387;
+	border: none;
+	border-radius: 2px 0px 0px 2px;
+	color: #fff !important;
+}
+
+.addon-facebook i,
+.addon-twitter i
+{
+		color: #fff !important;
+}
+.btn-facebook,
+.btn-facebook:hover {
+	background-color: #4b6ea9;
+	color: #fff !important;
+	border-radius: 0px 2px 2px 0px;
+	font-size: 15px;
+}
+
+.addon-twitter {
+	background-color: #00c6e9;
+	border: none;
+	border-radius: 2px 0px 0px 2px;
+	color: #fff !important;
+}
+
+.btn-twitter,
+.btn-twitter:hover {
+	background-color: #00d7fa;
+	color: #fff !important;
+	border-radius: 0px;
+	font-size: 15px;
+}

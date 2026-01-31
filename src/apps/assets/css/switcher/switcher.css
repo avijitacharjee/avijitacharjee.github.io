@@ -1,0 +1,131 @@
+
+/* Styles Switcher */
+
+#style-switcher {
+background: #fff none repeat scroll 0 0;
+border-radius: 0 0 3px;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+left: 0;
+position: fixed;
+top: 168px;
+width: 245px;
+z-index: 9999;
+}
+#style-switcher div {
+padding: 0px 10px;
+}
+#style-switcher h2 {
+color: #333;
+font-family: montserrat,sans-serif;
+font-size: 16px;
+margin-bottom: 0;
+margin-right: 0;
+margin-top: 0;
+padding: 10px 0;
+text-align: center;
+text-transform: uppercase;
+border-bottom: 1px solid #ddd;
+margin-bottom: 10px;
+}
+#style-switcher h2 a {
+background: #fff none repeat scroll 0 0;
+box-shadow: -2px 3px 5px rgba(0, 0, 0, 0.2);
+display: block;
+height: 50px;
+position: absolute;
+right: -50px;
+top: 0;
+width: 50px;
+}
+#style-switcher h2 a i {
+color: #333;
+font-size: 26px;
+left: 12px;
+position: absolute;
+top: 12px;
+}
+.colors {
+  padding-left: 7px;
+}
+.colors {
+  list-style: none;
+  margin: 0px 0px 10px 0px;
+  overflow: hidden;
+}
+.colors li {
+  float: left;
+}
+.colors li a {
+border-radius: 100px;
+box-shadow: -2px 3px 5px rgba(0, 0, 0, 0.2);
+cursor: pointer;
+display: block;
+height: 40px;
+margin: 6px;
+width: 40px;
+}
+.layout-style select {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  margin: 0 0 0 -5px;
+  color: #fff;
+  cursor: pointer;
+}
+#reset {
+  margin: 0 0 15px 2px;
+}
+#reset a {
+  color: #fff;
+  font-size: 12px;
+}
+.style1 {
+  background: #ff8f00;
+}
+.style2 {
+  background: #1cbac8;
+}
+.style3 {
+  background: #2f7af8;
+}
+.style4 {
+  background: #9dc855;
+}
+.style5 {
+  background: #0a3b59;
+}
+.style6 {
+  background: #e72063;
+}
+.style7 {
+  background: #cddc36;
+}
+.style8 {
+  background: #019e8b;
+}
+.style9 {
+  background: #f64033;
+}
+.style10 {
+  background: #c7b271;
+}
+.style11 {
+  background: #9c28b1;
+}
+.style12 {
+  background: #3ab3e0;
+}
+.colors li a.active {
+  box-shadow: 0 0 0px 2px #fff;
+}
+.icon-2x{
+	color: #fff;
+font-size:22px;
+line-height:30px;
+}
+
+@media only screen and (max-width: 768px) {
+  #style-switcher {
+    display: none;
+  }
+}

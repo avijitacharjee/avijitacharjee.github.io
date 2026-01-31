@@ -1,0 +1,65 @@
+.icon-box-v1 {
+	padding: 5% 3%;
+}
+.icon-holder {
+	color: #000;
+	margin-bottom: 10px;
+}
+.heading h3 {
+	font-size: 21px;
+}
+.icon-sm {
+	font-size: 25px;
+}
+.icon-md {
+	font-size: 30px;
+}
+.icon-lg {
+	font-size: 40px;
+}
+.parallax i {
+	color: #ffffff;
+}
+.icon-box-v2 .content-holder {
+	padding-left: 50px;
+}
+.icon-content-v3 {
+	margin-top: 30px;
+}
+.icon-content-v4 {
+	margin-top: 25px;
+}
+
+h3.icon-heading
+{
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:20px;
+}
+
+.icon-box-holder
+{
+	background-color:#e9dddd;
+	padding:20px;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+}
+
+.icon-box-holder:hover
+{
+	background-color:#fff;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+}
+
+
+.video-pop-up-icon
+{
+  color: #fff;
+  margin:auto;
+  text-align: center;
+  margin-bottom: 50%;
+
+}

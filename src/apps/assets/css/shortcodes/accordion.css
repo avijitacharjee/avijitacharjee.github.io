@@ -1,0 +1,77 @@
+/*------------------------------------------------------------------
+    accordions
+-------------------------------------------------------------------*/
+
+
+.accordion > dt {
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+.accordion.time-line > dt > a {
+	background: none;
+}
+.accordion > dt > a {
+	display: block;
+	position: relative;
+	color: #222222;
+	text-decoration: none;
+	padding: 14px 20px;
+	border: 1px solid #e8e8e8;
+	background: #e8e8e8;
+	letter-spacing: 2px;
+}
+.accordion > dt > a:hover {
+	text-decoration: none;
+}
+.accordion > dt > a:hover, .accordion > dt > a.active {
+	cursor: pointer;
+}
+.accordion > dt > a:after {
+	content: "\f067";
+	width: 15px;
+	height: 15px;
+	margin-top: -8px;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	font-family: 'FontAwesome';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 16px;
+	line-height: 15px;
+	text-align: center;
+	color: #696969;
+	-webkit-font-smoothing: antialiased;
+}
+.accordion > dt > a.active:after, .accordion > dt > a.active:hover:after {
+	content: "\f068";
+	color: #fff;
+}
+.accordion > dt > a:hover:after {
+	color: #fff;
+}
+.accordion > dd {
+	margin-bottom: 10px;
+	padding: 10px 20px 20px;
+	font-size: 14px;
+	line-height: 1.8;
+	color: #777;
+}
+.accordion > dt > a, .accordion > dt > a:after, .toggle > dt > a, .toggle > dt > a:after {
+	-webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+	-moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+	-o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+	-ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+	transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.accordion > dt > a:hover, .accordion > dt > a.active {
+	color: #fff;
+	border-color: #9c5b57;
+	background: #9c5b57;
+}

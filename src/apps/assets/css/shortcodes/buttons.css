@@ -1,0 +1,43 @@
+.btn-large {
+	padding: 20px 40px;
+	font-size: 16px;
+}
+.btn-lng {
+	padding: 8px 55px;
+}
+.btn-medium {
+	padding: 15px 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.btn-small {
+	padding: 10px 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.btn-md-small {
+	padding: 7px 15px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.btn-extra-small {
+	padding: 5px 13px;
+	font-size: 11px;
+	font-weight: bold;
+}
+.btn-semi-rounded {
+	border-radius: 10px !important;
+}
+.btn-rounded {
+	border-radius: 30px !important;
+}
+.btn {
+	display: inline-block;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border-radius: 0px;
+	margin-right: 20px;
+}
+.promo-btn {
+	margin-top: -5px;
+}

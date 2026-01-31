@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==========================
+NAVIGATION BAR COLOR
+==========================*/
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #e72063;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #e72063;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #e72063;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: transparent;
+	color: #e72063;
+}
+
+ @media (max-width: 767px) {
+	 
+	 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	color: #e72063;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+	color: #e72063;
+	background-color: transparent;
+}
+ }
+
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	color: #e72063;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+	color: #e72063;
+	background-color: transparent;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #e72063;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #e72063;
+}
+
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	background-color: transparent;
+	color: #e72063;
+}
+
+
+
+
+/*==========================
+LOGO
+==========================*/
+
+span.logo-span
+{
+	font-size:25px;
+	color: #e72063;
+}
+
+
+
+/*==========================
+BUTTONS COLOR
+==========================*/
+
+.yorker-btn {
+	background-color: #111;
+	color: #ffffff;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn:hover {
+	background-color: #e72063;
+	color: #ffffff;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn2 {
+	background-color: #e72063;
+	color: #ffffff;
+	border: 1px solid #e72063;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn2:hover {
+	background-color: transparent;
+	color: #ffffff;
+	border: 1px solid #e72063;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn3 {
+	background-color: transparent;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn3:hover {
+	background-color: #e5e5e5;
+	color: #111;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn4 {
+	background-color: transparent;
+	color: #111;
+	border: 1px solid #111;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn4:hover {
+	background-color: #e5e5e5;
+	color: #111;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn5 {
+	background-color: transparent;
+	color: #111;
+	border: 1px solid #111;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn5:hover {
+	background-color: #111;
+	color: #ffffff;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn6 {
+	background-color: transparent;
+	color: #111;
+	border: 1px solid #111;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn6:hover {
+	background-color: #e72063;
+	color: #ffffff;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn7 {
+	background-color: transparent;
+	color: #e72063;
+	border: 1px solid #e72063;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn7:hover {
+	background-color: #e72063;
+	color: #ffffff;
+	border: 1px solid #e72063;
+	transition: all 0.5s ease-in-out 0s;
+}
+
+
+.yorker-btn8 {
+	background-color: transparent;
+	color: #e72063;
+	border: 0px solid #e72063;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn8:hover {
+	background-color: #e72063;
+	color: #ffffff;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+
+
+
+/*==========================
+PROGRESS BAR
+==========================*/
+
+
+.yorker-progress .progress-bar {
+background-color: #e72063;
+}
+
+
+
+/*==========================
+PORTFOLIO
+==========================*/
+
+.filters li a.current {
+	color: #ffffff;
+	border:1px solid #e72063;
+	background-color: #e72063;
+	text-decoration: none;
+}
+
+
+
+.filters li a:hover {
+		color: #ffffff;
+	border:1px solid #e72063;
+	background-color: #e72063;
+	text-decoration: none;
+}
+
+.work-category a, .work-popup i {
+	color: #e72063;
+}
+
+/*==========================
+PRICING
+==========================*/
+
+
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > h2 {
+		background-color: #e72063;
+}
+
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > .pricing-box {
+		border-bottom: 3px solid #e72063;
+}
+
+.plan-footer .btn:hover, .btn:focus {
+		background:#e72063;
+}
+
+
+/*==========================
+TEAM
+==========================*/
+.team-image ul.social-icons li a:hover {
+  background: #e72063;
+}
+
+
+/*==========================
+BLOG POST
+==========================*/
+.post-single .post-cat li a {
+	color: #e72063;
+}
+
+.blog-box a:hover .blog-box-overlay 
+{
+	background-color: rgba(231, 32, 99, 0.58);
+}
+
+
+/*==========================
+CONTACT BUTTON
+==========================*/
+button.submit:hover, .button.submit:focus, .button.submit:active {
+	background-color: #e72063;
+}
+
+
+
+.feature.style-app-1 i, .feature.style-app-2 i
+{
+	color:#ffffff;
+	background-color: #e72063;
+}
+
+.platforms i
+{
+ color:#e72063;
+ }
+
+/*Version-3*/
+.border-strip
+{
+    border-bottom:3px solid #e72063;
+}
+
+.icon-box-holder span
+{
+	color:#e72063;
+}
+
+
+
+.counters span.counter-icon-2 i
+{
+	color:#e72063;
+}
+
+.border-line-2 {
+	border:2px solid #e72063;
+}
+
+.plan-footer-2 .btn {
+	background-color:#e72063;
+}
+
+/*Version-4*/ 
+
+h2.about-us-heading
+{
+	color:#e72063;
+}
+
+span.about-span-font
+{
+	color:#e72063;
+}
+
+.testimonials-name {
+    color: #e72063;
+}
+
+.work-heading {
+    color: #e72063;
+}
+
+.theme-bg
+{
+	background-color:#e72063;
+}
+
+h2.story-heading {
+	color:#e72063;
+}
+
+.feature-box h3 {
+	color:#e72063;
+}
+
+li.active span.round-tabs.one{
+    color: #e72063;
+     border: 2px solid #e72063;
+}
+li.active span.round-tabs.two{
+    color: #e72063;
+     border: 2px solid #e72063;
+}
+li.active span.round-tabs.three{
+    color: #e72063;
+     border: 2px solid #e72063;
+}
+li.active span.round-tabs.four{
+    color: #e72063;
+     border: 2px solid #e72063;
+}
+li.active span.round-tabs.five{
+    color: #e72063;
+     border: 2px solid #e72063;
+}
+.or-rgt-menu h1 {
+	color:#e72063;
+}

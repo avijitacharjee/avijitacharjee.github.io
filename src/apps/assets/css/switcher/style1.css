@@ -1,0 +1,391 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==========================
+NAVIGATION BAR COLOR
+==========================*/
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #ff7e20;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #ff7e20;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ff7e20;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: transparent;
+	color: #ff7e20;
+}
+
+ @media (max-width: 767px) {
+	 
+	 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	color: #ff7e20;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+	color: #ff7e20;
+	background-color: transparent;
+}
+ }
+
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	color: #ff7e20;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+	color: #ff7e20;
+	background-color: transparent;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #ff7e20;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #ff7e20;
+}
+
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	background-color: transparent;
+	color: #ff7e20;
+}
+
+
+
+
+/*==========================
+LOGO
+==========================*/
+
+span.logo-span
+{
+	font-size:25px;
+	color: #ff7e20;
+}
+
+
+
+/*==========================
+BUTTONS COLOR
+==========================*/
+
+.yorker-btn {
+	background-color: #111;
+	color: #ffffff;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn:hover {
+	background-color: #ff7e20;
+	color: #ffffff;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn2 {
+	background-color: #ff7e20;
+	color: #ffffff;
+	border: 1px solid #ff7e20;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn2:hover {
+	background-color: transparent;
+	color: #ffffff;
+	border: 1px solid #ff7e20;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn3 {
+	background-color: transparent;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn3:hover {
+	background-color: #e5e5e5;
+	color: #111;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn4 {
+	background-color: transparent;
+	color: #111;
+	border: 1px solid #111;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn4:hover {
+	background-color: #e5e5e5;
+	color: #111;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn5 {
+	background-color: transparent;
+	color: #111;
+	border: 1px solid #111;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn5:hover {
+	background-color: #111;
+	color: #ffffff;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn6 {
+	background-color: transparent;
+	color: #111;
+	border: 1px solid #111;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn6:hover {
+	background-color: #ff7e20;
+	color: #ffffff;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn7 {
+	background-color: transparent;
+	color: #ff7e20;
+	border: 1px solid #ff7e20;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn7:hover {
+	background-color: #ff7e20;
+	color: #ffffff;
+	border: 1px solid #ff7e20;
+	transition: all 0.5s ease-in-out 0s;
+}
+
+
+.yorker-btn8 {
+	background-color: transparent;
+	color: #ff7e20;
+	border: 0px solid #ff7e20;
+	transition: all 0.5s ease-in-out 0s;
+}
+.yorker-btn8:hover {
+	background-color: #ff7e20;
+	color: #ffffff;
+	border: 1px solid #d1d1d1;
+	transition: all 0.5s ease-in-out 0s;
+}
+
+
+
+/*==========================
+PROGRESS BAR
+==========================*/
+
+
+.yorker-progress .progress-bar {
+background-color: #ff7e20;
+}
+
+.yorker-progress .progress-bar-2 {
+background-color: #ff7e20;
+}
+
+
+
+/*==========================
+PORTFOLIO
+==========================*/
+
+.filters li a.current {
+	color: #ffffff;
+	border:1px solid #ff7e20;
+	background-color: #ff7e20;
+	text-decoration: none;
+}
+
+
+
+.filters li a:hover {
+		color: #ffffff;
+	border:1px solid #ff7e20;
+	background-color: #ff7e20;
+	text-decoration: none;
+}
+
+.work-category a, .work-popup i {
+	color: #ff7e20;
+}
+
+/*==========================
+PRICING
+==========================*/
+
+
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > h2 {
+		background-color: #ff7e20;
+}
+
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > .pricing-box {
+		border-bottom: 3px solid #ff7e20;
+}
+
+.plan-footer .btn:hover, .btn:focus {
+		background:#ff7e20;
+}
+
+
+/*==========================
+TEAM
+==========================*/
+.team-image ul.social-icons li a:hover {
+  background: #ff7e20;
+}
+
+
+/*==========================
+BLOG POST
+==========================*/
+.post-single .post-cat li a {
+	color: #ff7e20;
+}
+
+.blog-box a:hover .blog-box-overlay 
+{
+	background-color: rgba(255, 126, 32, 0.58);
+}
+
+
+/*==========================
+CONTACT BUTTON
+==========================*/
+button.submit:hover, .button.submit:focus, .button.submit:active {
+	background-color: #ff7e20;
+}
+
+
+
+.feature.style-app-1 i, .feature.style-app-2 i
+{
+	color:#ffffff;
+	background-color: #ff7e20;
+}
+
+.platforms i
+{
+ color:#ff7e20;
+ }
+ 
+/*Version-3*/
+.border-strip
+{
+    border-bottom:3px solid #ff7e20;
+}
+
+.icon-box-holder span
+{
+	color:#ff7e20;
+}
+
+
+
+.counters span.counter-icon-2 i
+{
+	color:#ff7e20;
+}
+
+.border-line-2 {
+	border:2px solid #ff7e20;
+}
+
+.plan-footer-2 .btn {
+	background-color:#ff7e20;
+}
+
+/*Version-4*/ 
+
+h2.about-us-heading
+{
+	color:#ff7e20;
+}
+
+span.about-span-font
+{
+	color:#ff7e20;
+}
+
+.testimonials-name {
+    color: #ff7e20;
+}
+
+.work-heading {
+    color: #ff7e20;
+}
+
+.theme-bg
+{
+	background-color:#ff7e20;
+}
+
+
+
+h2.story-heading {
+	color:#ff7e20;
+}
+
+.feature-box h3 {
+	color:#ff7e20;
+}
+
+
+li.active span.round-tabs.one{
+    color: #ff7e20;
+     border: 2px solid #ff7e20;
+}
+
+
+
+li.active span.round-tabs.two{
+    background: #fff !important;
+    border: 2px solid #ff7e20;
+    color: #ff7e20;
+}
+
+span.round-tabs.three{
+    color:#CCC;
+}
+
+li.active span.round-tabs.three{
+   background: #fff !important;
+    border: 2px solid #ff7e20;
+    color: #ff7e20;
+}
+
+span.round-tabs.four{
+   color:#CCC;
+}
+
+li.active span.round-tabs.four{
+   background: #fff !important;
+    border: 2px solid #ff7e20;
+    color: #ff7e20;
+}
+
+span.round-tabs.five{
+    color:#CCC;
+}
+
+li.active span.round-tabs.five{
+   background: #fff !important;
+    border: 2px solid #ff7e20;
+    color: #ff7e20;
+}
+
+.or-rgt-menu h1 {
+	color:#ff7e20;
+}

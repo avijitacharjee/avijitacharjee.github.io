@@ -1,0 +1,645 @@
+/*intro*/
+.intro {
+	padding: 100px 0;
+	color: #fff;
+}
+.heading-strips-one {
+	border-top: 4px solid #00e0d0;
+	height: 1px;
+	margin: 20px auto 25px;
+	position: relative;
+	width: 80px;
+}
+.intro .intro-body {
+	padding-top: 17.5%;
+	vertical-align: middle;
+}
+
+.intro .intro-body.intro-app{
+	padding-top: 5.5%;
+	vertical-align: middle;
+}
+
+.app-intro-content
+{
+	padding-top: 13.5%;
+}
+.intro-para
+{
+	font-size:16px;
+}
+.intro .intro-body .brand-heading {
+	font-size: 40px;
+}
+.intro .intro-body .intro-text {
+	font-size: 1em;
+}
+ @media(min-width:768px) {
+.intro {
+	height: 100%;
+	padding: 0;
+}
+.intro .intro-body .brand-heading {
+	font-size: 38px;
+}
+.intro .intro-body .intro-text {
+	font-size: 1.1em;
+}
+}
+.btn-intro {
+	width: 70px;
+	height: 70px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	padding: 7px 16px;
+	font-size: 50px;
+	color: #fff;
+	background: 0 0;
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.btn-intro:hover, .btn-intro:focus {
+	outline: 0;
+	color: #fff;
+}
+.btn-intro i.animated {
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 1s;
+	-moz-transition-property: -moz-transform;
+	-moz-transition-duration: 1s;
+}
+.btn-intro:hover i.animated {
+	-webkit-animation-name: pulse;
+	-moz-animation-name: pulse;
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+}
+ @-webkit-keyframes pulse {
+ 0 {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 50% {
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 100% {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+}
+ @-moz-keyframes pulse {
+ 0 {
+ -moz-transform: scale(1);
+ transform: scale(1);
+}
+ 50% {
+ -moz-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 100% {
+ -moz-transform: scale(1);
+ transform: scale(1);
+}
+}
+
+/*parallax*/
+.parallax {
+	background-attachment: center center fixed;
+	background-repeat: repeat-y;
+	background-position: 50% 0;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.parallax h1, .parallax h2, .parallax h3, .parallax h4, .parallax h5, .parallax h6, .parallax .heading {
+	color: #fff;
+}
+.parallax p {
+	color: #E0E0E0;
+}
+.parallax a, .parallax li
+{
+	color: #fff;
+}
+.parallax .description {
+	color: #ccc;
+}
+.parallax_banner {
+	position: relative;
+	background-image: url(../../images/parallax/intro_bg1.jpg);
+	height: 100vh;
+}
+.parallax_banner .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_banner:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+}
+.parallax_banner:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: url(../../images/parallax/gridtile.png) repeat;
+}
+ @media (max-width: 762px) {
+.parallax_banner {
+	position: relative;
+	background-image: url(../../images/parallax/intro_bg1.jpg);
+	height: auto;
+}
+}
+.parallax_banner2 {
+	position: relative;
+	background-image: url(../../images/parallax/intro_bg2.jpg);
+	height: 100vh;
+}
+.parallax_banner2 .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_banner2:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+}
+.parallax_banner2:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: url(../../images/parallax/gridtile.png) repeat;
+}
+ @media (max-width: 762px) {
+.parallax_banner2 {
+	position: relative;
+	background-image: url(../../images/parallax/intro_bg2.jpg);
+	height: auto;
+}
+}
+.parallax_banner3 {
+	position: relative;
+	background-image: url(../../images/parallax/intro_bg3.jpg);
+	height: 100vh;
+}
+.parallax_banner3 .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_banner3:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+}
+.parallax_banner3:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: url(../../images/parallax/gridtile.png) repeat;
+}
+ @media (max-width: 762px) {
+.parallax_banner3 {
+	position: relative;
+	background-image: url(../../images/parallax/intro_bg3.jpg);
+	height: auto;
+}
+}
+.parallax_banner4 {
+	position: relative;
+	background-image: url(../../images/parallax/intro_bg4.jpg);
+	height: 100vh;
+}
+.parallax_banner4 .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_banner4:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+}
+.parallax_banner4:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: url(../../images/parallax/gridtile.png) repeat;
+}
+ @media (max-width: 762px) {
+.parallax_banner4 {
+	position: relative;
+	background-image: url(../../images/parallax/intro_bg4.jpg);
+	height: auto;
+}
+}
+
+
+
+.parallax_banner5 {
+	position: relative;
+	background-image: url(../../images/parallax/intro_bg5.jpg);
+	height: 100vh;
+}
+.parallax_banner5 .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_banner5:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+}
+.parallax_banner5:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: url(../../images/parallax/gridtile.png) repeat;
+}
+ @media (max-width: 762px) {
+.parallax_banner5 {
+	position: relative;
+	background-image: url(../../images/parallax/intro_bg5.jpg);
+	height: auto;
+}
+}
+
+
+
+
+.parallax_banner6 {
+	position: relative;
+	background-image: url(../../images/parallax/intro_bg6.jpg);
+	height: 100vh;
+}
+.parallax_banner6 .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_banner6:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+}
+.parallax_banner6:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: url(../../images/parallax/gridtile.png) repeat;
+}
+ @media (max-width: 762px) {
+.parallax_banner6 {
+	position: relative;
+	background-image: url(../../images/parallax/intro_bg6.jpg);
+	height: auto;
+}
+}
+
+
+/*parallax_section1*/
+.parallax_section1 {
+	position: relative;
+	background-image: url(../../images/parallax/1.jpeg);
+}
+.parallax_section1 .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section1 .container-fluid {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section1:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+}
+.parallax_section1:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: url(../../images/parallax/gridtile.png) repeat;
+}
+/*parallax_section2*/
+.parallax_section2 {
+	position: relative;
+	background-image: url(../../images/parallax/2.jpg);
+}
+.parallax_section2 .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section2 .container-fluid {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section2:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+}
+.parallax_section2:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: url(../../images/parallax/gridtile.png) repeat;
+}
+/*parallax_section3*/
+.parallax_section3 {
+	position: relative;
+	background-image: url(../../images/parallax/3.jpg);
+}
+.parallax_section3 .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section3 .container-fluid {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section3:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+}
+.parallax_section3:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: url(../../images/parallax/gridtile.png) repeat;
+}
+/*parallax_section4*/
+.parallax_section4 {
+	position: relative;
+	background-image: url(../../images/parallax/4.jpg);
+}
+.parallax_section4 .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section4 .container-fluid {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section4:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+}
+.parallax_section4:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: url(../../images/parallax/gridtile.png) repeat;
+}
+
+
+
+
+
+
+.parallax_section5 {
+	position: relative;
+	background-image: url(../../images/parallax/5.jpg);
+}
+.parallax_section5 .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section5 .container-fluid {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section5:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+}
+.parallax_section5:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: url(../../images/parallax/gridtile.png) repeat;
+}
+
+.parallax_section6 {
+	position: relative;
+	background-image: url(../../images/parallax/10.jpg);
+}
+.parallax_section6 .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section6 .container-fluid {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section6:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+}
+.parallax_section6:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: url(../../images/parallax/gridtile.png) repeat;
+}
+
+
+
+
+
+.parallax_section_dark2 {
+	position: relative;
+	background-image: url(../../images/parallax/3a.jpg);
+}
+.parallax_section_dark2 .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section_dark2 .container-fluid {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section_dark2:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+}
+.parallax_section_dark2:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: url(../../images/parallax/gridtile.png) repeat;
+}
+
+
+.parallax-normal {
+	background-attachment: center center fixed;
+	background-repeat: repeat-y;
+	background-position: 50% 0;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.parallax_section-normal {
+	position: relative;
+	background-image: url(../../images/parallax/8.jpg);
+}
+.parallax_section-normal .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section-normal .container-fluid {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section-normal:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	
+}
+.parallax_section-normal:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	
+}
+
+.parallax_section-normal2 {
+	position: relative;
+	background-image: url(../../images/parallax/9.jpg);
+}
+.parallax_section-normal2 .container {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section-normal2 .container-fluid {
+	position: relative;
+	z-index: 99;
+}
+.parallax_section-normal2:after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	
+}
+.parallax_section-normal2:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	
+}

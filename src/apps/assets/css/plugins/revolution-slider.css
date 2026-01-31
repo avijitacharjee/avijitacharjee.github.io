@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Revolution Slider
+------------------------------------*/
+.tp-dottedoverlay {
+  z-index: 1 !important;
+}
+
+.tp-bullets.preview4 .bullet {
+  border-radius: 10px !important;
+}
+
+.tp-banner-container a.btn-u,
+.tp-banner-container a.btn-u:hover {
+  color: #fff;
+  border: solid 1px transparent;
+}
+
+.tp-banner-container a.re-btn-brd {
+  background: none;
+  border: solid 1px #fff;
+}
+
+.tp-banner-container a.re-btn-brd:hover {
+  color: #555;
+  background: #fff; 
+}
+
+.tp-caption a {
+    color: #FFF;
+    text-shadow: none;
+    transition: all 0.2s ease-out 0s;
+}
+
+/*Fullwidth*/
+.tp-banner-container .btn-u.btn-brd {
+  font-weight: 400;
+}
+
+.tp-banner-container {
+  position: relative;
+}
+
+/*Fullscreen*/
+.fullscreen-container {
+  padding:0;
+  width:100%;
+  position:relative;
+}
+
+
+.tp-banner > ul {
+    padding: 0;
+    list-style: none;
+}
+
+.tp-banner-fullscreen-container {
+        width:100%;
+        position:relative;
+        padding:0;
+}
+
+/* custom caption */
+
+.rev-heading {
+    /*font: normal 60px/1.5 'Abel', sans-serif;*/
+    font: normal 60px/1.5 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.rev-subheading {
+    font-family:  'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+
+.rev-desc {
+    font-size: 16px;
+    color: #454545;
+    line-height: 26px;
+}
+
+.rev-white {
+    color: #fff;
+}
+
+.rev-semidark
+{
+	color:#fafafa;
+}
+.rev-dark
+{
+	color:#333;
+}

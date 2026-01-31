@@ -1,0 +1,57 @@
+body
+{
+	background:#141414;
+}
+.dark-color-bg
+{
+	background:#111111;
+}
+
+.light-dark-bg
+{
+	
+}
+
+.white-color
+{
+	color:#ffffff !important; 
+}
+
+.theme-color
+{
+	color:#e84855 !important;
+}
+
+
+/**
+ * ========================================
+ *DARK COUNTERS
+ * ========================================
+ */
+
+
+.dark-counters {
+	color: #ffffff;
+	text-align: center;
+}
+
+ @media (max-width: 767px) {
+ .dark-counters {
+ margin-bottom: 30px;
+}
+}
+.dark-counters span {
+	font-size: 35px;
+}
+.dark-counters span.counter-icon {
+	display:inline-block;
+	margin-bottom: 10px;
+}
+.dark-counters span.counter-icon i {
+	color: #e84855;
+	padding: 16px;
+	min-width: 65px;
+	font-size: 30px;
+	position: relative;
+}
+
