@@ -110,7 +110,7 @@ End section layout fixes
     font-size: 1.2rem;
     color: #666;
     margin: 20px 0 30px;
-    max-width: 600px;
+    /* max-width: 600px; */
 }
 
 .quick-info ul {
