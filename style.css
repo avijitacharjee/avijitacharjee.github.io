@@ -873,7 +873,7 @@ Version:	1.1
 }
 #about-me .progress .progress-bar span:before{
 	position:absolute;
-	bottom:0
+	bottom:0;
 }
 /*=======================
 	End About Me
@@ -1224,7 +1224,7 @@ Version:	1.1
 	display:none;
 }
 #portfolio .portfolio-nav ul li i{
-	color:#fff
+	color:#fff;
 }
 #portfolio.archive .portfolio-nav ul li span::before{
 	border-top-color:#fff;
@@ -1839,7 +1839,7 @@ Version:	1.1
 }
 #blog .blog-head:hover .blog-link a {
 	-webkit-transform: scale(1.0);
-	-moz-transform: sscale(1.0);
+	-moz-transform: scale(1.0);
 	transform: scale(1.0);
 }
 #blog .blog-head .blog-link a:hover{
