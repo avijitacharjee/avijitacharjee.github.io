@@ -1,35 +1,3 @@
-$('#contact_submit').click(function (e) {
-    $.getJSON('https://ipinfo.io/json', function (d) {
-        var contact_name = document.getElementById("contact_name").value;
-        var contact_email = document.getElementById("contact_email").value;
-        var contact_message = document.getElementById("contact_message").value;
-        $.ajax({
-            type: 'POST',
-            url: 'https://p-admin.avijitacharjee.com/api.php',
-            crossDomain: true,
-            data: {
-                m: 100,
-                name: contact_name,
-                email: contact_email,
-                message: contact_message,
-                user_info: JSON.stringify(d, null, 2)
-            },
-            contentType: "application/json",
-            contentType: "application/x-www-form-urlencoded",
-            success: function(responseData, textStatus, jqXHR) {
-                var value = responseData.responseText;
-                console.log(value);
-                showSnackbar("Message sent successfully",3000);
-            },
-            error: function (responseData, textStatus, errorThrown) {
-                console.log(errorThrown);
-                console.log('response data');
-                console.log(responseData);
-            }
-        });
-        // console.log(JSON.stringify(d, null, 2));
-    });
-});
 $('#hire_me_now').click(function(e) {
     showSnackbar("Please send a message in contact section to continue", 4000);
 })
@@ -71,3 +39,46 @@ function validateEmail(email) {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
 }
+
+// Video modal functionality
+function playVideo(videoUrl) {
+    const modal = document.getElementById('videoModal');
+    const videoFrame = document.getElementById('videoFrame');
+    
+    // Extract YouTube video ID
+    const videoId = getYouTubeId(videoUrl);
+    
+    // Embed the video
+    videoFrame.innerHTML = `
+        <iframe width="100%" height="100%" 
+                src="https://www.youtube.com/embed/${videoId}?autoplay=1" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    `;
+    
+    // Show modal
+    modal.style.display = 'block';
+}
+
+function getYouTubeId(url) {
+    const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+    const match = url.match(regExp);
+    return (match && match[2].length === 11) ? match[2] : null;
+}
+
+// Close modal when clicking X
+document.querySelector('.close-modal').addEventListener('click', function() {
+    document.getElementById('videoModal').style.display = 'none';
+    document.getElementById('videoFrame').innerHTML = '';
+});
+
+// Close modal when clicking outside
+window.addEventListener('click', function(event) {
+    const modal = document.getElementById('videoModal');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+        document.getElementById('videoFrame').innerHTML = '';
+    }
+});
