@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="All Blog Posts - Avijit Acharjee">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>All Posts — Avijit Acharjee</title>
+
+        <link rel="icon" type="image/png" href="images/circle-cropped.png">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel+Decorative">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="css/slicknav.min.css">
+        <link rel="stylesheet" href="css/animate-text.css">
+        <link rel="stylesheet" href="css/owl.theme.default.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/color/color1.css">
+        <link rel="stylesheet" href="css/avijit.css">
+
+        <style>
+            .blog-index-list { padding: 60px 0 80px; }
+            .blog-index-item {
+                display: flex;
+                gap: 28px;
+                align-items: flex-start;
+                padding: 28px 0;
+                border-bottom: 1px solid #f0f0f0;
+            }
+            .blog-index-item:last-child { border-bottom: none; }
+            .blog-index-thumb {
+                flex-shrink: 0;
+                width: 120px;
+                height: 80px;
+                overflow: hidden;
+                border-radius: 4px;
+            }
+            .blog-index-thumb img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .blog-index-content { flex: 1; }
+            .blog-index-meta {
+                font-size: 12px;
+                color: #999;
+                margin-bottom: 6px;
+            }
+            .blog-index-meta span { margin-right: 14px; }
+            .blog-index-meta i { margin-right: 4px; }
+            .blog-index-content h3 {
+                margin: 0 0 8px;
+                font-size: 17px;
+                font-weight: 700;
+                line-height: 1.4;
+            }
+            .blog-index-content h3 a { color: #333; text-decoration: none; }
+            .blog-index-content h3 a:hover { color: #e84545; }
+            .blog-index-content p {
+                color: #666;
+                font-size: 13.5px;
+                line-height: 1.7;
+                margin: 0 0 10px;
+            }
+            .blog-index-content .read-link {
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+                color: #e84545;
+                text-decoration: none;
+            }
+            .blog-index-content .read-link:hover { text-decoration: underline; }
+            @media (max-width: 600px) {
+                .blog-index-item { flex-direction: column; gap: 14px; }
+                .blog-index-thumb { width: 100%; height: 160px; }
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Preloader -->
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="k-line k-line11-1"></div>
+                <div class="k-line k-line11-2"></div>
+                <div class="k-line k-line11-3"></div>
+                <div class="k-line k-line11-4"></div>
+                <div class="k-line k-line11-5"></div>
+            </div>
+        </div>
+        <!-- End Preloader -->
+
+        <!-- Start Header -->
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-12 col-xs-12">
+                        <div class="logo">
+                            <a href="index.html">A. Acharjee</a>
+                        </div>
+                        <div class="mobile-nav"></div>
+                    </div>
+                    <div class="col-md-10 col-sm-12 col-xs-12">
+                        <div class="nav-area">
+                            <nav class="mainmenu">
+                                <div class="collapse navbar-collapse">
+                                    <ul class="nav navbar-nav menu">
+                                        <li><a href="index.html"><i class="fa fa-home"></i>Homepage</a></li>
+                                        <li><a href="index.html#my-service"><i class="fa fa-rocket"></i>My Service</a></li>
+                                        <li><a href="index.html#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                                        <li><a href="index.html#my-timeline"><i class="fa fa-history"></i>Timeline</a></li>
+                                        <li><a href="index.html#testimonials"><i class="fa fa-star"></i>Testimonials</a></li>
+                                        <li class="active"><a href="blog.html"><i class="fa fa-pencil"></i>Blog</a></li>
+                                        <li><a href="index.html#contact"><i class="fa fa-address-book"></i>Contact</a></li>
+                                    </ul>
+                                    <ul class="social-icon">
+                                        <li><a href="#header"><i class="fa fa-plus"></i></a></li>
+                                    </ul>
+                                    <ul class="social">
+                                        <li><a href="https://web.facebook.com/avijit.acharjee.750"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://twitter.com/avi57225670"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://github.com/avijitacharjee"><i class="fa fa-code"></i></a></li>
+                                        <li><a href="https://dribbble.com/AvijitAcharjee"><i class="fa fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--/ End Header -->
+
+        <!-- Start Breadcrumbs -->
+        <section id="breadcrumbs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <h2>All Posts</h2>
+                        <ul class="bread-list">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li class="active"><a href="blog-index.html">All Posts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ End Breadcrumbs -->
+
+        <!-- Blog Index List -->
+        <section class="blog-index-list">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+
+                        <div class="blog-index-item">
+                            <div class="blog-index-thumb">
+                                <img src="images/blogs/blog0.jpg" alt="Raag Bhupali">
+                            </div>
+                            <div class="blog-index-content">
+                                <div class="blog-index-meta">
+                                    <span><i class="fa fa-calendar"></i> April 9, 2026</span>
+                                    <span><i class="fa fa-tag"></i> Raaga</span>
+                                    <span><i class="fa fa-user"></i> Avijit</span>
+                                </div>
+                                <h3><a href="blog/raag-bhupali.html">Raag Bhupali — রাগ ভূপালী</a></h3>
+                                <p>A complete guide to Raag Bhupali with composition by Ustad Amanat Ali Khan, tabla notation, tans, and practice tips.</p>
+                                <a href="blog/raag-bhupali.html" class="read-link">Read more <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-index-item">
+                            <div class="blog-index-thumb">
+                                <img src="images/blogs/blog0.jpg" alt="The Symphony of Code">
+                            </div>
+                            <div class="blog-index-content">
+                                <div class="blog-index-meta">
+                                    <span><i class="fa fa-calendar"></i> April 6, 2025</span>
+                                    <span><i class="fa fa-tag"></i> Coding</span>
+                                    <span><i class="fa fa-user"></i> Avijit</span>
+                                </div>
+                                <h3><a href="blog/the-symphony-of-code.html">The Symphony of Code: How Music Enhances Productivity</a></h3>
+                                <p>How music genres and listening strategies boost programmer focus, reduce stress, and facilitate flow states during coding.</p>
+                                <a href="blog/the-symphony-of-code.html" class="read-link">Read more <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-index-item">
+                            <div class="blog-index-thumb">
+                                <img src="images/blogs/blog0.jpg" alt="Raag Yaman">
+                            </div>
+                            <div class="blog-index-content">
+                                <div class="blog-index-meta">
+                                    <span><i class="fa fa-calendar"></i> April 4, 2025</span>
+                                    <span><i class="fa fa-tag"></i> Raaga</span>
+                                    <span><i class="fa fa-user"></i> Avijit</span>
+                                </div>
+                                <h3><a href="blog/raag-yaman.html">Raag Yaman — রাগ: ইমন</a></h3>
+                                <p>A guide to Raag Yaman covering its melodic structure, characteristic phrases, and compositional patterns for classical music study.</p>
+                                <a href="blog/raag-yaman.html" class="read-link">Read more <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-index-item">
+                            <div class="blog-index-thumb">
+                                <img src="images/blogs/blog0.jpg" alt="How to Identify Raagas">
+                            </div>
+                            <div class="blog-index-content">
+                                <div class="blog-index-meta">
+                                    <span><i class="fa fa-calendar"></i> April 3, 2025</span>
+                                    <span><i class="fa fa-tag"></i> Raaga</span>
+                                    <span><i class="fa fa-user"></i> Avijit</span>
+                                </div>
+                                <h3><a href="blog/how-to-identify-raagas.html">How to Identify Raagas by Ear: A Step-by-Step Approach</a></h3>
+                                <p>Techniques for recognizing Indian classical ragas through listening, focusing on practical methods for identifying characteristics by ear.</p>
+                                <a href="blog/how-to-identify-raagas.html" class="read-link">Read more <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-index-item">
+                            <div class="blog-index-thumb">
+                                <img src="images/blogs/blog0.jpg" alt="Top Software Companies in Bangladesh">
+                            </div>
+                            <div class="blog-index-content">
+                                <div class="blog-index-meta">
+                                    <span><i class="fa fa-calendar"></i> April 1, 2025</span>
+                                    <span><i class="fa fa-tag"></i> Software</span>
+                                    <span><i class="fa fa-user"></i> Avijit</span>
+                                </div>
+                                <h3><a href="blog/top-software-companies-bangladesh.html">Top Software Companies in Bangladesh</a></h3>
+                                <p>A listing of prominent software development firms in Dhaka and Chittagong, covering specialties and industry presence.</p>
+                                <a href="blog/top-software-companies-bangladesh.html" class="read-link">Read more <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-index-item">
+                            <div class="blog-index-thumb">
+                                <img src="images/blogs/blog0.jpg" alt="Mastering Breath Control">
+                            </div>
+                            <div class="blog-index-content">
+                                <div class="blog-index-meta">
+                                    <span><i class="fa fa-calendar"></i> March 30, 2025</span>
+                                    <span><i class="fa fa-tag"></i> Flute</span>
+                                    <span><i class="fa fa-user"></i> Avijit</span>
+                                </div>
+                                <h3><a href="blog/mastering-breath-control.html">Mastering Breath Control for Flute Players</a></h3>
+                                <p>A training guide covering diaphragmatic breathing, long-tone exercises, and circular breathing techniques for flutists.</p>
+                                <a href="blog/mastering-breath-control.html" class="read-link">Read more <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-index-item">
+                            <div class="blog-index-thumb">
+                                <img src="images/blogs/blog0.jpg" alt="Mastering the Art of Flute with Zoom G1X Four">
+                            </div>
+                            <div class="blog-index-content">
+                                <div class="blog-index-meta">
+                                    <span><i class="fa fa-calendar"></i> March 30, 2025</span>
+                                    <span><i class="fa fa-tag"></i> Flute</span>
+                                    <span><i class="fa fa-user"></i> Avijit</span>
+                                </div>
+                                <h3><a href="blog/mastering-flute-zoom-g1x.html">Mastering the Art of Flute with a Zoom G1X Four</a></h3>
+                                <p>A guide for using a multi-effects processor with flute — setup, recommended effects like reverb and delay, across musical genres.</p>
+                                <a href="blog/mastering-flute-zoom-g1x.html" class="read-link">Read more <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ End Blog Index List -->
+
+        <!-- Footer Top -->
+        <section id="footer-top" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="newslatter">
+                            <h2><span>Signup</span>Newslatter</h2>
+                            <p>Sign up in the newslatter to get informed about my new offers and new blog post.</p>
+                        </div>
+                        <form class="news-form">
+                            <input type="email" placeholder="type your email">
+                            <button type="submit" class="button primary"><i class="fa fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ End footer Top -->
+
+        <!-- Start Footer -->
+        <footer id="footer">
+            <div class="arrow">
+                <a href="#header" class="btn"><i class="fa fa-angle-up"></i></a>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="copyright">
+                            <p>&copy; 2026 Avijit Acharjee. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <ul class="social">
+                            <li><a href="https://web.facebook.com/avijit.acharjee.750"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/avi57225670"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://github.com/avijitacharjee"><i class="fa fa-code"></i></a></li>
+                            <li><a href="https://dribbble.com/AvijitAcharjee"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--/ End Footer -->
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/colors.js"></script>
+        <script type="text/javascript" src="js/modernizr.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/animate-text.js"></script>
+        <script type="text/javascript" src="js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript" src="js/jquery.nav.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
