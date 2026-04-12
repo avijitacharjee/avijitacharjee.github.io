@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://avijitacharjee.github.io/sitemap.xml
